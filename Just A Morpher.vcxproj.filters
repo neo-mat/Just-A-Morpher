@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Memory">
+      <UniqueIdentifier>{6370b494-82c5-4089-96ed-51b92a3e58ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Memory\MinHook">
+      <UniqueIdentifier>{e1b4b208-5813-48d0-8e01-744cbddea0df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Memory\MinHook\HDE64">
+      <UniqueIdentifier>{24408f73-441e-453a-9759-a75e66fc4972}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Memory\MinHook\HDE32">
+      <UniqueIdentifier>{cdb03df7-12ea-475d-bd6a-4faf0df4fbe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Memory">
+      <UniqueIdentifier>{f84943b1-816f-42a8-9c18-3bc526368e25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Memory\MinHook">
+      <UniqueIdentifier>{8c465722-d265-4f43-baa1-8c84ded7d11e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Memory\MinHook\HDE32">
+      <UniqueIdentifier>{bc65896e-b36b-461a-86f0-7707044f6312}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Memory\MinHook\HDE64">
+      <UniqueIdentifier>{5e5adcc3-20b9-4911-ba07-d97b5de32ae7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Singleton.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Delegates.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Just A Morpher.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\Memory.hpp">
+      <Filter>Header Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\MinHook\pstdint.h">
+      <Filter>Header Files\Memory\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\MinHook\thread.h">
+      <Filter>Header Files\Memory\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\MinHook\trampoline.h">
+      <Filter>Header Files\Memory\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\MinHook\buffer.h">
+      <Filter>Header Files\Memory\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\MinHook\hook.h">
+      <Filter>Header Files\Memory\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\MinHook\MinHook.h">
+      <Filter>Header Files\Memory\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\MinHook\HDE32\table32.h">
+      <Filter>Header Files\Memory\MinHook\HDE32</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\MinHook\HDE32\hde32.h">
+      <Filter>Header Files\Memory\MinHook\HDE32</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\MinHook\HDE64\hde64.h">
+      <Filter>Header Files\Memory\MinHook\HDE64</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\MinHook\HDE64\table64.h">
+      <Filter>Header Files\Memory\MinHook\HDE64</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Delegates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\Memory.cpp">
+      <Filter>Source Files\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\MinHook\export.cpp">
+      <Filter>Source Files\Memory\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\MinHook\hook.cpp">
+      <Filter>Source Files\Memory\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\MinHook\thread.cpp">
+      <Filter>Source Files\Memory\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\MinHook\trampoline.cpp">
+      <Filter>Source Files\Memory\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\MinHook\buffer.cpp">
+      <Filter>Source Files\Memory\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\MinHook\HDE32\hde32.c">
+      <Filter>Source Files\Memory\MinHook\HDE32</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\MinHook\HDE64\hde64.c">
+      <Filter>Source Files\Memory\MinHook\HDE64</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

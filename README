@@ -1,0 +1,52 @@
+Just A Morpher - A morpher for x86 WoW.
+
+After building, use any DLL injector to inject it into WoW.
+
+It adds the following API functions to WoW:
+
+-- Set a unit's display ID.
+SetDisplayID (UnitID, DisplayID)
+
+-- Get a unit's display ID.
+GetDisplayID (UnitID)
+
+-- Get a unit's native display ID.
+GetNativeDisplayID (UnitID)
+
+-- Set a unit's scale.
+SetScale (UnitID, Scale)
+
+-- Get a unit's scale.
+GetScale (UnitID)
+
+-- Set a unit's mount's display ID.
+SetMountDisplayID (UnitID, DisplayID)
+
+-- Get a unit's mount's display ID.
+GetMountDisplayID (UnitID)
+
+-- Set the display ID of a unit's item.
+SetItemDisplayID (UnitID, Item, DisplayID)
+
+-- Get the display ID of a unit's item.
+GetItemDisplayID (UnitID, Item)
+
+-- Update a unit's model.
+UpdateModel (UnitID)
+
+Items:
+
+Head = 0
+Shoulders = 2
+Shirt = 3
+Chest = 4
+Waist = 5
+Legs = 6
+Feet = 7
+Wrists = 8
+Hands = 9
+Back = 14
+MainHand = 15
+OffHand = 16
+Ranged = 17
+Tabard = 18
